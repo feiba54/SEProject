@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.note.MainActivity">
+    <item
+        android:id="@+id/add"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/data"
+        android:orderInCategory="100"
+        android:title="@string/data"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mine"
+        android:orderInCategory="100"
+        android:title="@string/personal_info"
+        app:showAsAction="never" />
+
+</menu>
